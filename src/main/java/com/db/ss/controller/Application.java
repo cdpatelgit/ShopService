@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan
+@ComponentScan(basePackages="com.db")
 @EnableAutoConfiguration
 public class Application {
 
